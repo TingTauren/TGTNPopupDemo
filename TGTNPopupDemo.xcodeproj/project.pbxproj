@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04321EB7283B5DE600905972 /* UIView+TGTNPopupAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04321EB6283B5DE600905972 /* UIView+TGTNPopupAdd.m */; };
+		04321EBA283B8A0600905972 /* TGTNPopupLineDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04321EB9283B8A0600905972 /* TGTNPopupLineDefaultView.m */; };
+		04BC0E08283DC560009305ED /* TGTNPopupCloseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC0E07283DC560009305ED /* TGTNPopupCloseView.m */; };
+		04CCACBF282A424100BDC940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCACBE282A424100BDC940 /* AppDelegate.m */; };
+		04CCACC5282A424100BDC940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCACC4282A424100BDC940 /* ViewController.m */; };
+		04CCACC8282A424100BDC940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CCACC6282A424100BDC940 /* Main.storyboard */; };
+		04CCACCA282A424300BDC940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CCACC9282A424300BDC940 /* Assets.xcassets */; };
+		04CCACCD282A424300BDC940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CCACCB282A424300BDC940 /* LaunchScreen.storyboard */; };
+		04CCACD0282A424300BDC940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCACCF282A424300BDC940 /* main.m */; };
+		04CCACD9282A433000BDC940 /* TGTNPopupBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCACD8282A433000BDC940 /* TGTNPopupBaseView.m */; };
+		04E5192628377A1F00756D76 /* TGTNPopupDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5192528377A1F00756D76 /* TGTNPopupDefaultView.m */; };
+		04E5192928377B2A00756D76 /* NSString+TGTNPopupAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5192828377B2A00756D76 /* NSString+TGTNPopupAdd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04321EB5283B5DE600905972 /* UIView+TGTNPopupAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TGTNPopupAdd.h"; sourceTree = "<group>"; };
+		04321EB6283B5DE600905972 /* UIView+TGTNPopupAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TGTNPopupAdd.m"; sourceTree = "<group>"; };
+		04321EB8283B8A0600905972 /* TGTNPopupLineDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNPopupLineDefaultView.h; sourceTree = "<group>"; };
+		04321EB9283B8A0600905972 /* TGTNPopupLineDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNPopupLineDefaultView.m; sourceTree = "<group>"; };
+		04BC0E06283DC560009305ED /* TGTNPopupCloseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNPopupCloseView.h; sourceTree = "<group>"; };
+		04BC0E07283DC560009305ED /* TGTNPopupCloseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNPopupCloseView.m; sourceTree = "<group>"; };
+		04CCACBA282A424100BDC940 /* TGTNPopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGTNPopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CCACBD282A424100BDC940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CCACBE282A424100BDC940 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CCACC3282A424100BDC940 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CCACC4282A424100BDC940 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CCACC7282A424100BDC940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CCACC9282A424300BDC940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CCACCC282A424300BDC940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CCACCE282A424300BDC940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CCACCF282A424300BDC940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CCACD7282A433000BDC940 /* TGTNPopupBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNPopupBaseView.h; sourceTree = "<group>"; };
+		04CCACD8282A433000BDC940 /* TGTNPopupBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNPopupBaseView.m; sourceTree = "<group>"; };
+		04E5192428377A1F00756D76 /* TGTNPopupDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTNPopupDefaultView.h; sourceTree = "<group>"; };
+		04E5192528377A1F00756D76 /* TGTNPopupDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTNPopupDefaultView.m; sourceTree = "<group>"; };
+		04E5192728377B2A00756D76 /* NSString+TGTNPopupAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TGTNPopupAdd.h"; sourceTree = "<group>"; };
+		04E5192828377B2A00756D76 /* NSString+TGTNPopupAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TGTNPopupAdd.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CCACB7282A424100BDC940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CCACB1282A424100BDC940 = {
+			isa = PBXGroup;
+			children = (
+				04CCACBC282A424100BDC940 /* TGTNPopupDemo */,
+				04CCACBB282A424100BDC940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CCACBB282A424100BDC940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CCACBA282A424100BDC940 /* TGTNPopupDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CCACBC282A424100BDC940 /* TGTNPopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04CCACD6282A42FA00BDC940 /* TGTNPopup */,
+				04CCACBD282A424100BDC940 /* AppDelegate.h */,
+				04CCACBE282A424100BDC940 /* AppDelegate.m */,
+				04CCACC3282A424100BDC940 /* ViewController.h */,
+				04CCACC4282A424100BDC940 /* ViewController.m */,
+				04CCACC6282A424100BDC940 /* Main.storyboard */,
+				04CCACC9282A424300BDC940 /* Assets.xcassets */,
+				04CCACCB282A424300BDC940 /* LaunchScreen.storyboard */,
+				04CCACCE282A424300BDC940 /* Info.plist */,
+				04CCACCF282A424300BDC940 /* main.m */,
+			);
+			path = TGTNPopupDemo;
+			sourceTree = "<group>";
+		};
+		04CCACD6282A42FA00BDC940 /* TGTNPopup */ = {
+			isa = PBXGroup;
+			children = (
+				04E5192728377B2A00756D76 /* NSString+TGTNPopupAdd.h */,
+				04E5192828377B2A00756D76 /* NSString+TGTNPopupAdd.m */,
+				04CCACD7282A433000BDC940 /* TGTNPopupBaseView.h */,
+				04CCACD8282A433000BDC940 /* TGTNPopupBaseView.m */,
+				04BC0E06283DC560009305ED /* TGTNPopupCloseView.h */,
+				04BC0E07283DC560009305ED /* TGTNPopupCloseView.m */,
+				04E5192428377A1F00756D76 /* TGTNPopupDefaultView.h */,
+				04E5192528377A1F00756D76 /* TGTNPopupDefaultView.m */,
+				04321EB8283B8A0600905972 /* TGTNPopupLineDefaultView.h */,
+				04321EB9283B8A0600905972 /* TGTNPopupLineDefaultView.m */,
+				04321EB5283B5DE600905972 /* UIView+TGTNPopupAdd.h */,
+				04321EB6283B5DE600905972 /* UIView+TGTNPopupAdd.m */,
+			);
+			path = TGTNPopup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CCACB9282A424100BDC940 /* TGTNPopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CCACD3282A424300BDC940 /* Build configuration list for PBXNativeTarget "TGTNPopupDemo" */;
+			buildPhases = (
+				04CCACB6282A424100BDC940 /* Sources */,
+				04CCACB7282A424100BDC940 /* Frameworks */,
+				04CCACB8282A424100BDC940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGTNPopupDemo;
+			productName = TGTNPopupDemo;
+			productReference = 04CCACBA282A424100BDC940 /* TGTNPopupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CCACB2282A424100BDC940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04CCACB9282A424100BDC940 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04CCACB5282A424100BDC940 /* Build configuration list for PBXProject "TGTNPopupDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CCACB1282A424100BDC940;
+			productRefGroup = 04CCACBB282A424100BDC940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CCACB9282A424100BDC940 /* TGTNPopupDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CCACB8282A424100BDC940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CCACCD282A424300BDC940 /* LaunchScreen.storyboard in Resources */,
+				04CCACCA282A424300BDC940 /* Assets.xcassets in Resources */,
+				04CCACC8282A424100BDC940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CCACB6282A424100BDC940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04321EB7283B5DE600905972 /* UIView+TGTNPopupAdd.m in Sources */,
+				04CCACC5282A424100BDC940 /* ViewController.m in Sources */,
+				04CCACD9282A433000BDC940 /* TGTNPopupBaseView.m in Sources */,
+				04CCACBF282A424100BDC940 /* AppDelegate.m in Sources */,
+				04BC0E08283DC560009305ED /* TGTNPopupCloseView.m in Sources */,
+				04E5192628377A1F00756D76 /* TGTNPopupDefaultView.m in Sources */,
+				04CCACD0282A424300BDC940 /* main.m in Sources */,
+				04321EBA283B8A0600905972 /* TGTNPopupLineDefaultView.m in Sources */,
+				04E5192928377B2A00756D76 /* NSString+TGTNPopupAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CCACC6282A424100BDC940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CCACC7282A424100BDC940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CCACCB282A424300BDC940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CCACCC282A424300BDC940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CCACD1282A424300BDC940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CCACD2282A424300BDC940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CCACD4282A424300BDC940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGTNPopupDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgtn.TGTNPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CCACD5282A424300BDC940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGTNPopupDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgtn.TGTNPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CCACB5282A424100BDC940 /* Build configuration list for PBXProject "TGTNPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CCACD1282A424300BDC940 /* Debug */,
+				04CCACD2282A424300BDC940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CCACD3282A424300BDC940 /* Build configuration list for PBXNativeTarget "TGTNPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CCACD4282A424300BDC940 /* Debug */,
+				04CCACD5282A424300BDC940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CCACB2282A424100BDC940 /* Project object */;
+}
